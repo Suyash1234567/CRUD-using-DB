@@ -68,7 +68,7 @@ using Crud_New.Models;
             WriteLiteral("\r\n<h2>Insert</h2>\r\n\r\n<div>\r\n    <h1>Add Product </h1>\r\n    ");
             EndContext();
             BeginContext(103, 1216, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e6dfa62929b84922bb1012e78634d33a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "330bd98258e34f3c8113064dcfa868f8", async() => {
                 BeginContext(158, 1154, true);
                 WriteLiteral(@"
         <span class=""form-inline"">
@@ -128,7 +128,7 @@ using Crud_New.Models;
             WriteLiteral("\r\n    <input type=\"submit\" value=\"Add\" class=\"btn btn-primary\" data-attr=\"Add_Product\" />\r\n</div>\r\n");
             EndContext();
             BeginContext(1418, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "df3ad7fa9cb04a12b506e11b7a6db9d6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f6adeadb055401cbf2e16959dcfb058", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
