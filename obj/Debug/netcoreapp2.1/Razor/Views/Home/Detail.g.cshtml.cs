@@ -100,7 +100,7 @@ using Crud_New.Models;
             WriteLiteral("\r\n        </dd>\r\n       \r\n    </dl>\r\n</div>\r\n");
             EndContext();
             BeginContext(535, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "879b3987fb554b93ac8149c1b3888634", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "afe0e04e7b7846f68bbb8943a8e8f32e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

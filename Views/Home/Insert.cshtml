@@ -8,15 +8,15 @@
 <div>
     <h1>Add Product </h1>
     <form method="post" class="form-group" id="AddProduct">
-        <span class="form-inline">
+        @*<span class="form-inline">
             Product ID :
             <input type="number" name="ProductId" class="form-control" />
         </span>
         <br />
-        <br />
+        <br />*@
         <span class="form-inline">
             Product Name :
-            <input type="text" name="ProductName" class="form-control" />
+            &nbsp;&nbsp;<input type="text" name="ProductName" class="form-control" />
         </span>
         <br />
         <br />
@@ -27,21 +27,35 @@
         <br />
         <br />
         <span class="form-inline">
-            Category Id :
+            Category Id (Select 1 for Fruits, 2 for Chocolate, 3 for Biscuits):
+            <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            @*<select class="form-control">
+                <option "0">Select</option>
+
+                <option "1">1</option>
+                <option "2">2</option>
+                <option "3">3</option>
+            </select>*@
             <input type="number" name="CategoryId" class="form-control" />
         </span>
         <br />
         <br />
         <span class="form-inline">
             Category Name :
-            <input type="text" name="CategoryName" class="form-control" />
+            @*<input type="text" name="CategoryName" placeholder="Entr Ctgry acc CatID selctd" class="form-control" />*@
+            <select class="form-control"> <option "0">Select</option>
+                
+                <option "1">Fruits</option>
+                <option "2">Chocolate</option>
+                <option "3">Biscuits</option>
+            </select>
         </span>
         <br />
         <br />
-        <span class="form-inline">
+        @*<span class="form-inline">
             Date :
             <input type="string" name="DateCreated" class="form-control" />
-        </span>
+        </span>*@
         <label>
         </label>
         <br />
